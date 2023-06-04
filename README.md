@@ -3,7 +3,8 @@
 <p align='center'>
 <br>
 <div align="center">
- ![아이디어제안서](https://github.com/ssongssong00/ShinhanAI/assets/87919319/e6783a9a-8838-4732-ab3c-55de0e803af8)
+ <img width="80%" src="https://github.com/ssongssong00/ShinhanAI/assets/87919319/e6783a9a-8838-4732-ab3c-55de0e803af8"/>
+
 </div>
 
 </p>
