@@ -104,9 +104,11 @@ PLOW는 Klaytn Network 기반 전자 헌혈 플랫폼(웹 서비스)으로
   <p align='center'><img src="https://user-images.githubusercontent.com/98978787/226175034-a546e12a-463b-4871-b340-9094853670d9.png"/></p>
 </details>
 
+## 모델링 설명
 
-## 📔기능 설명
-### 🩸**P:LOW Web** ###
+
+## 📔대시보드 설명
+### 🩸**SAR Dashboard** ###
 웹을 처음 실행 시, 사용자는 우측 상단에 회원가입 버튼을 클릭합니다. 이후 Klaytn Wallet의 개인키를 통해 회원가입을 진행합니다. 
 
 <table>
