@@ -201,9 +201,9 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 <p align='center'>
 <br>
 <div align="center">
- <img width="70%" src="(https://github.com/ssongssong00/ShinhanAI/assets/135504764/91add187-9a44-40a8-9e9d-daf2647ebcc4"/>
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/135504764/b0f0aa79-bd3f-4bfb-ba73-410d0b0c35a4"/>
 
- </div>
+</div>
 </p>
 
 - 현재 종가, 등락률 등과 같은 보유한 자산의 섹터별 구성 비중 정보인 **리츠의 자산 구성**  제공
