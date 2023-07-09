@@ -114,8 +114,97 @@ PLOW는 Klaytn Network 기반 전자 헌혈 플랫폼(웹 서비스)으로
   <p align='center'><img src="https://user-images.githubusercontent.com/98978787/226175034-a546e12a-463b-4871-b340-9094853670d9.png"/></p>
 </details>
 
-## 모델링 설명
+## 📔모델링 설명
+<p align='center'>
+<br>
+<div align="center">
+ <img width="80%" src="https://github.com/ssongssong00/ShinhanAI/assets/96776691/e69769f3-5eb2-4472-9bfb-67f5b23b78cb"/>
 
+</div>
+</p>
+
+**리츠 주가등락 예측모형에 대한 모델 설계 과정은 다음과 같습니다.**
+1. 수집 및 전처리 
+2. 변수 선정
+3. 모델링
+4. 평가 검증 및 성능 측정
+
+### 1. 수집 및 전처리
+**데이터 수집**
+
+2019년 1월 ~ 2022년 12월을 기준으로 하여 데이터를 수집하였습니다.
+- 각 리츠 일별 / 투자자별 거래 데이터를 한국 주식 거래소(KRX)에서 수집하였습니다.
+- 각 리츠 분기별 재무상태표 데이터와 일별 / 월별 거시경제 데이터는 FnGuide를 통해 수집하였습니다.
+- 일별 / 부동산 유형별 뉴스 데이터는 빅카인즈를 통해 수집하였습니다.
+
+**파생변수 생성**
+- 투자자별 리츠 상품 거래데이터를 통해 "정보비대칭 변수"(기관, 외국인별 순매수도 금액, 체결강도)를 파생변수로 추가하였습니다.
+- 일별 주식 거래 데이터를 활용하여 "테크니컬 변수"(SMA20, MACD, ATR, TR, RSI, SLOW_K)를 파생변수로 추가하였습니다.
+- 부동산 뉴스테이터를 활용하여 부동산 유형별로 감성 분석을 진행하고 개별리츠의 투자 자산 비중에 맞춰 가중평균한 "부동산 뉴스 심리지수 변수"를 파생변수로 추가하였습니다.
+
+
+### 2. 변수 선정
+**변수 유의성 확인**
+앞에서 추출한 후보변수를 고전적 회귀모형 가정(CLM)을 기준으로 변수의 유의성을 확인하였습니다.
+
+- 정규성 검정
+정규성 검정 결과 대부분 변수가 정규성을 만족하지 않는다는 것을 확인하였습니다. CLM가정을 중 하나인 정규성을 만족시키기 위해서 데이터 분포의 양 끝단 데이터를 0.5%를 제거하는 윈저라이징 기법을 통해 정규성을 확보하고자 하였습니다.
+
+<p align='center'>
+<br>
+<div align="center">
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/96776691/f85a0ab5-1b28-400e-8281-6ccb37b53488"/>
+
+</div>
+</p>
+
+ - 다중공선성 확인
+상관관계를 파악하기 위해 히트맵으로 변수간 상관의 여부를 파악하고 VIF계수로 그 상관의 정도를 확인하였습니다. 다중공선성이 너무 높은 변수들은 제거하고 모델링을 진행하였습니다.
+
+<p align='center'>
+<br>
+<div align="center">
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/96776691/9f8fd758-c54d-4dcd-9115-ea1da9130952"/>
+
+</div>
+</p>
+
+이를 통해 모델 학습에 사용 될 최종 변수들을 선정하고 하나의 데이터프레임으로 합쳐 최종 데이터셋을 생성하였습니다. 
+
+<p align='center'>
+<br>
+<div align="center">
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/96776691/8fb22b82-3870-4839-b7ad-74eed17485aa"/>
+
+</div>
+</p>
+
+종속변수는 한달 뒤 주가등락 여부를 확인하는 것으로 상승, 보합 및 하락으로 이진변수로 구성하였습니다. 종속 변수 분포를 확인한 결과, 1:1 비율로 데이터가 균형있게 존재함을 파악하였습니다. 
+
+### 3. 모델링
+**알고리즘 채택**
+종속변수 주가 등락을 예측하기 위해 분류 알고리즘을 사용하였습니다. 로지스틱 회귀모형, 트리계열의 XGBoost, CatBoost, 기타 분류 모델인 SVM, Naive Bayes 분류 모형 등의 알고리즘을 사용하여 모델링을 진행한 결과, 트리 기반의 XGBoost 알고리즘이 가장 좋은 성능을 보여주었기 때문에 XGBoost를 채택하였습니다.
+
+### 4. 평가 검증 및 성능 측정
+**성능 평가 지표**
+모형을 평가함에 있어 분류 모델에서 주로 사용되는 Confusion Matrix를 기반으로 Accuracy, Precision, Recall, F1 score를 측정하였습니다. 
+<p align='center'>
+<br>
+<div align="center">
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/96776691/fced78cf-c4c2-491a-a6a5-a39ff006983c"/>
+
+</div>
+</p>
+
+**피쳐 중요도**
+트리계열 알고리즘에서 어떤 변수가 가장 큰 영향을 미쳤는지 파악하기 위해 학습시킨 모형에서 피쳐중요도를 확인하였습니다. 1달 뒤의 주가등락을 예측하였기 때문에 중장기 주가 등락을 예측할 때 중요한 변수들임을 파악할 수 있습니다. 
+<p align='center'>
+<br>
+<div align="center">
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/96776691/2c40566a-2006-495b-937b-11c0faa81d0a"/>
+
+</div>
+</p>
 
 ## 📔대시보드 설명
 ### 🩸**SAR Dashboard** ###
