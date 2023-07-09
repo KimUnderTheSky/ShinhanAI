@@ -54,8 +54,13 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
  ## 🗒사용자 정의 문서
  
  ### 페르소나
-![리츠 페르소나1](https://github.com/ssongssong00/ShinhanAI/assets/87919319/816c5bec-1060-4a7f-9c69-87f04cca6680)
-![리츠 페르소나2](https://github.com/ssongssong00/ShinhanAI/assets/87919319/f56f7800-304b-4a20-aa22-85d74e6978d8)
+ <div align="center">
+ <img width="80%" src="https://github.com/ssongssong00/ShinhanAI/assets/87919319/816c5bec-1060-4a7f-9c69-87f04cca6680"/>
+</div>
+
+ <div align="center">
+ <img width="80%" src="https://github.com/ssongssong00/ShinhanAI/assets/87919319/f56f7800-304b-4a20-aa22-85d74e6978d8"/>
+</div>
 
  ### 시나리오
  
@@ -94,7 +99,6 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 <br>
 <div align="center">
  <img width="80%" src="https://github.com/ssongssong00/ShinhanAI/assets/96776691/e69769f3-5eb2-4472-9bfb-67f5b23b78cb"/>
-
 </div>
 </p>
 
