@@ -222,6 +222,7 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 </div>
 </p>
 
+-
 
 
 
@@ -232,7 +233,7 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 <p align='center'>
 <br>
 <div align="center">
- <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/b666c26e-dad1-4202-b479-beac634b58a1" width="200" height="400"/>
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/058fef9f-e4ea-44f0-ad62-839cd73c14c8"/>
 
 </div>
 </p>
