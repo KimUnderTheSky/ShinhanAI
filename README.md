@@ -277,8 +277,8 @@ SAR이 활성화 되면 앞으로 신한 AI, 마켓워닝시스템 'MWS'와의 �
   <td align='center'><img src="https://avatars.githubusercontent.com/u/76638529?v=4" width="50" height="50"></td>
   <td align='center'>조국</td>
   <td align='center'>Modeling / Dashboard</td>
-  <td align='center'><a href="https://github.com/nikey20006"><img src="http://img.shields.io/badge/giirafe-green?style=social&logo=github"/></a></td>
-  <td align='center'><a href="mailto:nikey2000@ajou.ac.kr"><img src="https://img.shields.io/badge/seojune408@gmail.com-green?logo=gmail&style=social"/></a></td>
+  <td align='center'><a href="https://github.com/nikey20006"><img src="http://img.shields.io/badge/nikey20006-green?style=social&logo=github"/></a></td>
+  <td align='center'><a href="mailto:nikey2000@ajou.ac.kr"><img src="https://img.shields.io/badge/nikey2000@ajou.ac.kr-green?logo=gmail&style=social"/></a></td>
  </tr>
 
  <tr>
