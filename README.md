@@ -184,7 +184,7 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 <p align='center'>
 <br>
 <div align="center">
- <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/135504764/2e911eec-afb4-4e4d-addf-4dc34e78f3b9"/>
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/3fd3e08a-669c-4e54-9d85-8015d57ed9ee"/>
 
 </div>
 </p>
@@ -201,7 +201,7 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 <p align='center'>
 <br>
 <div align="center">
- <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/135504764/b0f0aa79-bd3f-4bfb-ba73-410d0b0c35a4"/>
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/deeb88a7-0609-484a-9728-271bc1310229"/>
 
 </div>
 </p>
@@ -217,7 +217,7 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 <p align='center'>
 <br>
 <div align="center">
- <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/5033f081-cf44-48fe-b0b7-de95c928f6d4"/>
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/efa74c57-baf7-4ec8-9e32-95400cf06a3c"/>
 
 </div>
 </p>
@@ -229,7 +229,15 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 - 회계정보에서 합계로만 제공되는 **Cap Rate**와 **건물별 Cap Rate**를 제공하여 실질적인 투자 수익률 확인 가능
 - **자산, 부채, 자본, 총계** 정보 제공
 
+물음표 버튼을 통해 SAR의 쉬운 설명으로 이해 가능
+<p align='center'>
+<br>
+<div align="center">
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/713d21d1-b88f-49f1-a38f-e71eb258b718"/>
 
+</div>
+</p>
+- 낯선 회계 용어를 만나면 SAR의 쉬운 **회계 용어 설명** 제공
 
 
 ### 4. 기초자산정보 대시보드
@@ -238,7 +246,7 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 <p align='center'>
 <br>
 <div align="center">
- <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/058fef9f-e4ea-44f0-ad62-839cd73c14c8"/>
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/8c4c8f7b-c942-41b7-a591-2e7e58928c77"/>
 
 </div>
 </p>
