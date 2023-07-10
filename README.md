@@ -213,14 +213,30 @@ SAR은 리츠 투자자의 리츠 가치평가를 돕는 대시보드로
 
 ### 3. 회계 정보 대시보드
 '개별 리츠' 대시보드에서 '회계 정보 상세보기'를 클릭 시, '회계 정보' 대시보드로 이동하게 됩니다.
-[사진]
+
+<p align='center'>
+<br>
+<div align="center">
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/100076851/b666c26e-dad1-4202-b479-beac634b58a1"/>
+
+</div>
+</p>
+
 
 
 
 
 ### 4. 기초자산정보 대시보드
 '개별 리츠' 대시보드에서 '기초자산정보 더보기'를 클릭 시, '기초자산 보' 대시보드로 이동하게 됩니다.
-[사진]
+
+<p align='center'>
+<br>
+<div align="center">
+ <img width="70%" src="https://github.com/ssongssong00/ShinhanAI/assets/135504764/b0f0aa79-bd3f-4bfb-ba73-410d0b0c35a4"/>
+
+</div>
+</p>
+
 
 
 ## 📈프로젝트 전망
