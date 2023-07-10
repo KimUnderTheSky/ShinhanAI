@@ -308,7 +308,7 @@ SAR이 활성화 되면 앞으로 신한 AI, 마켓워닝시스템 'MWS'와의 �
  </tr>
 
  <tr>
-  <td align='center'><img src="https://avatars.githubusercontent.com/u/87919319?v=4" width="50" height="50"></td>
+  <td align='center'><img src="https://avatars.githubusercontent.com/u/100076851?s=400&u=5cc7db1f004c19f776c0d5bcd3f7010a081ff9b0&v=4" width="50" height="50"></td>
   <td align='center'>신은주</td>
   <td align='center'>Modeling / Dashboard</td>
   <td align='center'><a href="https://github.com/tlsdmswn01"><img src="http://img.shields.io/badge/tlsdmswn01-green?style=social&logo=github"/></a></td>
